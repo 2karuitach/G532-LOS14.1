@@ -1,0 +1,15 @@
+#
+# system.prop for i9100
+#
+
+rild.libpath=/system/lib/libsecril-shim.so
+rild.libargs=-d /dev/ttyS0
+ro.ril.telephony.mqanelements=5
+
+media.stagefright.legacyencoder=true
+
+# By default, primary storage is physical
+ro.vold.primary_physical=1
+
+# EGL blobs crash on screen off
+ro.egl.destroy_after_detach=true
